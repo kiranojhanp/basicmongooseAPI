@@ -8,7 +8,7 @@ app.use(express.json());
 /* Simple restful API */
 
 app.get("/", (req, res) => {
-  res.send("Welcome to my app");
+  res.send("Welcome to my app man");
 });
 
 app.get("/todo", (req, res) => {
